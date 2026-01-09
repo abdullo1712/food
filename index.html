@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css" />
+    <!-- <link rel="stylesheet" href="./modal.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="logo-container">
+          <img src="./imgs/Logo.svg" alt="" />
+        </div>
+
+        <nav class="nav-menu">
+          <a href="#" class="nav-link">Today Special Offers</a>
+          <a href="#" class="nav-link">Why FoodHut</a>
+          <a href="#" class="nav-link">Our Menu</a>
+          <a href="#" class="nav-link">Our Popular Food</a>
+        </nav>
+
+        <button class="download-btn">Download App</button>
+        <button class="tun_kun_btn">Tun/Kun</button>
+        
+      </div>
+    </header>
+
+    <main>
+      <!-- sectionOne -->
+      <section class="hero-section">
+        <div class="container">
+          <!-- Chap tomon: Matnlar qismi -->
+          <div class="hero-content">
+            <div class="badge-trust">
+              <span class="ping-dot"></span>
+              People Trust us
+            </div>
+
+            <h1 class="hero-title">
+              We're <span class="text-red">Serious</span> For <br />
+              Food & <span class="text-yellow">Delivery</span>.
+            </h1>
+
+            <p class="hero-description">
+              Best cooks and best delivery guys all at your service. Hot tasty
+              food will reach you in 60 minutes.
+            </p>
+
+            <div class="search-container">
+              <div class="search-box">
+                <span class="search-icon-left">🔍</span>
+                <input
+                  type="text"
+                  placeholder="Search food"
+                  class="search-input"
+                />
+                <button class="search-btn">
+                  <span>🔍</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="hero-buttons">
+              <button class="btn-primary">Download App</button>
+              <button class="btn-video group">
+                <div class="video-icon">▶</div>
+                Watch Video
+              </button>
+            </div>
+          </div>
+
+          <!-- O'ng tomon: Rasm qismi -->
+          <div class="about-image-side">
+            <div class="image-container">
+              <!-- Aylanuvchi chiziqli doira -->
+              <div class="dashed-circle"></div>
+
+              <!-- Asosiy rasm -->
+              <div class="main-chef-img">
+                <img src="./imgs/heroimg.png" alt="Chef Image" />
+              </div>
+
+              <!-- Sakrab turuvchi kichik rasm -->
+              <div class="floating-dish bounce-anim">
+                <div class="dish-box">
+                  <img src="./imgs/hero1.png" alt="dish" />
+                </div>
+                <div class="dish-box">
+                  <img src="./imgs/hero2.png" alt="dish" />
+                </div>
+                <div class="dish-box">
+                  <img src="./imgs/hero3.png" alt="dish" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sectionTwo -->
+
+      <section id="sectionTwo" class="offers-section">
+        <div class="container">
+          <div class="offers-header">
+            <h2 class="offers-title">
+              Today <span class="text-red">Special</span> Offers
+            </h2>
+            <p class="offers-subtitle">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard.
+            </p>
+          </div>
+
+          <div class="offers-grid">
+            <!-- Card 1 -->
+            <div class="offer-card">
+              <div class="card-image-wrapper">
+                <div class="card-image-circle">
+                  <img src="./imgs/1.png" alt="Kebab" />
+                </div>
+                <div class="card-price-tag">$10</div>
+              </div>
+              <div class="card-content">
+                <div class="card-rating">
+                  ★★★★★ <span class="rating-num">(4.5)</span>
+                </div>
+                <h3 class="card-title">Kebab</h3>
+                <p class="card-desc">
+                  Delicious middle eastern style grilled kebab with spices.
+                </p>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="offer-card">
+              <div class="card-image-wrapper">
+                <div class="card-image-circle">
+                  <img src="./imgs/2.png" alt="Chicken Tikka" />
+                </div>
+                <div class="card-price-tag">$15</div>
+              </div>
+              <div class="card-content">
+                <div class="card-rating">
+                  ★★★★★ <span class="rating-num">(4.8)</span>
+                </div>
+                <h3 class="card-title">Chicken Tikka</h3>
+                <p class="card-desc">
+                  Tender chicken pieces marinated in yogurt and spices.
+                </p>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="offer-card">
+              <div class="card-image-wrapper">
+                <div class="card-image-circle">
+                  <img src="./imgs/3.png" alt="Desi Chowmein" />
+                </div>
+                <div class="card-price-tag">$8</div>
+              </div>
+              <div class="card-content">
+                <div class="card-rating">
+                  ★★★★★ <span class="rating-num">(4.2)</span>
+                </div>
+                <h3 class="card-title">Desi Chowmein</h3>
+                <p class="card-desc">
+                  Spicy noodles stir-fried with vegetables and chicken.
+                </p>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="offer-card">
+              <div class="card-image-wrapper">
+                <div class="card-image-circle">
+                  <img src="./imgs/4.png" alt="Chicken Chargha" />
+                </div>
+                <div class="card-price-tag">$26</div>
+              </div>
+              <div class="card-content">
+                <div class="card-rating">
+                  ★★★★★ <span class="rating-num">(5.0)</span>
+                </div>
+                <h3 class="card-title">Chicken Chargha</h3>
+                <p class="card-desc">
+                  Whole chicken steam cooked and then deep fried.
+                </p>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sectionThree -->
+      <section id="sectionThree" class="about-section">
+        <div class="container">
+          <!-- Chap tomon: Rasm va Animatsiyalar -->
+          <div class="about-image-side">
+            <div class="image-container">
+              <!-- Aylanuvchi chiziqli doira -->
+              <div class="dashed-circle"></div>
+
+              <!-- Asosiy rasm -->
+              <div class="main-chef-img">
+                <img src="./imgs/Chef.png" alt="Chef Image" />
+              </div>
+            </div>
+          </div>
+
+          <!-- O'ng tomon: Matn va Ma'lumotlar -->
+          <div class="about-content-side">
+            <h2 class="about-title">
+              We are <span class="text-red">more</span> than <br />
+              <span class="text-yellow">multiple</span> service
+            </h2>
+
+            <p class="about-description">
+              This is a type of restaurant which typically serves food and
+              drink, in addition to light refreshments such as baked goods or
+              snacks.
+            </p>
+
+            <div class="features-grid">
+              <div class="feature-item">
+                <div class="feature-icon">🛒</div>
+                <span class="feature-text">Online Order</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">🕒</div>
+                <span class="feature-text">24/7 Service</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">👨‍🍳</div>
+                <span class="feature-text">Super Chef</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">✨</div>
+                <span class="feature-text">Clean Kitchen</span>
+              </div>
+            </div>
+
+            <button class="btn-about">About Us</button>
+          </div>
+        </div>
+      </section>
+      <!-- sectionFour -->
+      <section id="sectionFour" class="menu-section">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="menu-title">
+              <span class="text-red">Menu</span> That
+              <span class="text-yellow">Always</span> Make You <br />
+              Fall In <span class="text-red">Love</span>
+            </h2>
+          </div>
+
+          <!-- Tablar (Kategoriyalar) -->
+          <div class="tabs-container">
+            <button class="tab-btn">Ramen</button>
+            <button class="tab-btn">Breakfast</button>
+            <button class="tab-btn">Lunch</button>
+            <button class="tab-btn">Dinner</button>
+            <button class="tab-btn">Mexican</button>
+            <button class="tab-btn">Italian</button>
+            <button class="tab-btn">Desserts</button>
+            <button class="tab-btn">Drinks</button>
+          </div>
+
+          <!-- Menu Grid -->
+
+          <div class="menu-grid">
+            <!-- Card 1 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a1.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(4.5)</span>
+                </div>
+                <h3 class="menu-item-name">Kebab</h3>
+                <p class="menu-item-desc">
+                  Delicious middle eastern style grilled kebab with spices.
+                </p>
+                <p class="menu-item-price">$10.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a2.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(4.8)</span>
+                </div>
+                <h3 class="menu-item-name">Chicken Tikka</h3>
+                <p class="menu-item-desc">
+                  Tender chicken pieces marinated in yogurt and spices.
+                </p>
+                <p class="menu-item-price">$15.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a3.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(4.2)</span>
+                </div>
+                <h3 class="menu-item-name">Noodles</h3>
+                <p class="menu-item-desc">
+                  Spicy noodles stir-fried with vegetables and chicken.
+                </p>
+                <p class="menu-item-price">$8.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a4.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(5.0)</span>
+                </div>
+                <h3 class="menu-item-name">Chargha</h3>
+                <p class="menu-item-desc">
+                  Whole chicken steam cooked and then deep fried.
+                </p>
+                <p class="menu-item-price">$26.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-grid">
+            <!-- Card 1 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a5.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(4.5)</span>
+                </div>
+                <h3 class="menu-item-name">Kebab</h3>
+                <p class="menu-item-desc">
+                  Delicious middle eastern style grilled kebab with spices.
+                </p>
+                <p class="menu-item-price">$10.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a6.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(4.8)</span>
+                </div>
+                <h3 class="menu-item-name">Chicken Tikka</h3>
+                <p class="menu-item-desc">
+                  Tender chicken pieces marinated in yogurt and spices.
+                </p>
+                <p class="menu-item-price">$15.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a7.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(4.2)</span>
+                </div>
+                <h3 class="menu-item-name">Noodles</h3>
+                <p class="menu-item-desc">
+                  Spicy noodles stir-fried with vegetables and chicken.
+                </p>
+                <p class="menu-item-price">$8.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="menu-card">
+              <div class="menu-card-image">
+                <div class="img-circle">
+                  <img src="./imgs/a8.png" alt="Menu Item" />
+                </div>
+              </div>
+              <div class="menu-card-content">
+                <div class="menu-rating">
+                  ★★★★★ <span class="rating-num">(5.0)</span>
+                </div>
+                <h3 class="menu-item-name">Chargha</h3>
+                <p class="menu-item-desc">
+                  Whole chicken steam cooked and then deep fried.
+                </p>
+                <p class="menu-item-price">$26.00</p>
+                <button class="menu-order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sectionfive -->
+      <section class="app-promo-section">
+        <div class="container">
+          <!-- Chap tomon: Matn va Yuklab olish tugmalari -->
+          <div class="app-content-side">
+            <h2 class="app-title">
+              It's Now <span class="text-red">More Easy</span> to
+              <span class="text-yellow">Order</span> by Our Mobile
+              <span class="text-red">App</span>
+            </h2>
+            <p class="app-description">
+              All you need to do is download one of the best delivery apps, make
+              an and most companies are opting for mobile app development for
+              food delivery
+            </p>
+
+            <div class="store-buttons">
+              <!-- App Store -->
+              <div class="store-btn">
+                <div class="store-icon"><i class="fa-brands fa-apple"></i></div>
+                <div class="store-text">
+                  <p class="store-label">Download on the</p>
+                  <p class="store-name">App Store</p>
+                </div>
+              </div>
+              <!-- Google Play -->
+              <div class="store-btn">
+                <div class="store-icon">▶</div>
+                <div class="store-text">
+                  <p class="store-label">Get it on</p>
+                  <p class="store-name">Google Play</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'ng tomon: Rasm va Suzib yuruvchi elementlar -->
+          <div class="app-image-side">
+            <div class="promo-image-wrapper">
+              <!-- Orqa fondagi aylana -->
+              <div class="bg-circle-outline"></div>
+
+              <!-- Asosiy rasm -->
+              <div class="promo-main-circle">
+                <img src="./imgs/shep.png" alt="Promo Image" />
+              </div>
+
+              <!-- Suzib yuruvchi ikonlar -->
+              <div class="shep">
+                <div class="dish-box">
+                  <img src="./imgs/hero1.png" alt="dish" />
+                </div>
+                <div class="dish-box">
+                  <img src="./imgs/hero2.png" alt="dish" />
+                </div>
+                <div class="dish-box">
+                  <img src="./imgs/hero3.png" alt="dish" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footter -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Logo va Ijtimoiy tarmoqlar -->
+          <div class="footer-col info-col">
+            <div class="footer-logo">
+              <img src="./imgs/Logo.svg" alt="" />
+            </div>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- About Us -->
+          <div class="footer-col links-col">
+            <h4 class="footer-heading">About Us</h4>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Service Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Company</a></li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <div class="footer-col links-col">
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-links">
+              <li><a href="#">Partnership</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+
+          <!-- Get in touch -->
+          <div class="footer-col subscribe-col">
+            <h4 class="footer-heading">Get in touch</h4>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="subscribe-form">
+              <input type="email" placeholder="Email" class="subscribe-input" />
+              <button class="subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Copyright © 2026 FoodHut. All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+  <script src="./main.js"></script>
+</html>
